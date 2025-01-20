@@ -1,0 +1,89 @@
+Project Report: Flower Classification and Size Prediction using Object Detection
+Abstract
+The aim of this project is to develop a robust deep learning model that can classify images of flowers into different categories and predict their sizes using object detection techniques. The report presents the detailed methodology, implementation, and evaluation of the models. The project involves data collection, preprocessing, model architecture design, model training, and performance evaluation. The results demonstrate the effectiveness of the models in accurately classifying flower species and predicting their sizes based on bounding box areas.
+
+1. Introduction
+1.1 Background
+1.2 Motivation
+1.3 Objectives
+1.4 Overview of the Report
+
+2. Literature Review
+2.1 Flower Classification Techniques
+
+Convolutional Neural Networks (CNNs)
+Transfer Learning
+Data Augmentation
+Model Evaluation Metrics
+2.2 Object Detection Methods
+
+YOLO (You Only Look Once)
+Intersection over Union (IoU)
+Mean Average Precision (mAP)
+3. Problem Definition and Scope
+3.1 Problem Statement
+3.2 Scope of the Project
+3.3 Data Collection and Dataset Description
+
+4. Data Preprocessing
+4.1 Data Gathering and Source Selection
+4.2 Data Cleaning and Labeling
+4.3 Image Resizing and Data Augmentation
+4.4 Data Splitting into Training and Test Sets
+
+5. Flower Classification Model
+5.1 CNN Architecture Design
+5.2 Model Implementation using Keras and TensorFlow
+5.3 Hyperparameter Tuning and Model Optimization
+5.4 Training and Validation
+5.5 Performance Evaluation Metrics
+
+6. Object Detection Model (YOLO)
+6.1 Introduction to YOLO Algorithm
+6.2 Pre-trained YOLO Model Selection
+6.3 Fine-tuning for Flower Size Prediction
+6.4 Training and Evaluation on the Detection Task
+6.5 Analysis of Object Detection Results
+
+7. Integrated Model
+7.1 Fusion of Classification and Object Detection Models
+7.2 Combined Model Architecture and Implementation
+7.3 Performance Evaluation on Joint Task
+
+8. Model Evaluation and Results
+8.1 Evaluation Metrics for Classification and Detection
+8.2 Comparison of Model Performance
+8.3 Interpretation of Results
+
+9. Challenges and Limitations
+9.1 Handling Class Imbalance
+9.2 Complexity of Flower Images
+9.3 Hyperparameter Tuning
+9.4 Computational Resource Requirements
+
+10. Future Scope
+10.1 Dataset Expansion and Diversity
+10.2 Advanced Object Detection Techniques
+10.3 Deployment in Real-world Applications
+10.4 Model Interpretability and Explainability
+
+11. Conclusion
+11.1 Summary of the Project
+11.2 Achievement of Objectives
+11.3 Contributions and Impact
+11.4 Lessons Learned
+
+12. References
+[1] Redmon, J., Divvala, S., Girshick, R., & Farhadi, A. (2016). You Only Look Once: Unified, Real-Time Object Detection. In Proceedings of the IEEE conference on computer vision and pattern recognition (CVPR) (pp. 779-788).
+
+[2] Chollet, F. (2015). Keras. GitHub repository: https://github.com/keras-team/keras
+
+[3] Abadi, M., et al. (2016). TensorFlow: Large-Scale Machine Learning on Heterogeneous Systems. GitHub repository: https://github.com/tensorflow/tensorflow
+
+[4] Simonyan, K., & Zisserman, A. (2014). Very Deep Convolutional Networks for Large-Scale Image Recognition. arXiv preprint arXiv:1409.1556.
+
+[5] Lin, T. Y., Goyal, P., Girshick, R., He, K., & Dollar, P. (2017). Focal Loss for Dense Object Detection. In Proceedings of the IEEE International Conference on Computer Vision (ICCV) (pp. 2980-2988).
+
+[6] Hariharan, B., Arbeláez, P., Girshick, R., & Malik, J. (2014). Simultaneous Detection and Segmentation. In European conference on computer vision (ECCV) (pp. 297-312).
+
+[7] Everingham, M., Van Gool, L., Williams, C. K., Winn, J., & Zisserman, A. (2010). The Pascal Visual Object Classes (VOC) Challenge. International Journal of Computer Vision, 88(2), 303-338.

@@ -1,0 +1,8 @@
+
+path: E:/sample_project/flowers/flowers final/Flower detection/Dataset  # dataset root dir
+train: train/Flower  # train images (relative to 'path')
+val: val/Flower  # val images (relative to 'path')
+
+# Classes
+names:
+  0: flower
